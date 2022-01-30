@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Kanit:wght@100;200;300;400;500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Prompt:wght@100;200;300;400;500;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    background-color: darkgray;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 700;
+}
+
+header,main {
+    display: flex;
+    justify-content: center;
+}
+
+.frame {
+    position: relative;
+    overflow: hidden;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+}
+
+.frame img {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.content-left,
+.content-right {
+    width: 350px;
+}
+.layout {
+    border-top: 1px solid rgba(0, 0, 0, 0.5) ;
+    border-left: 1px solid rgba(0, 0, 0, 0.5) ;
+    padding: 50px;
+    width: 350;
+    padding-right: 100;
+}
+
+.container {
+    position: relative;
+}
+
+.prop-rt {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height: 400px;
+    background-color: teal;
+    border-bottom-left-radius: 20px;
+}
+
+header {
+    padding-top: 40px;
+}
+
+.my-name h1{
+    letter-spacing: 15px;
+}
+
+.my-name :nth-child(2){
+    margin-bottom: 20px;
+}
+
+.my-contact i {
+    margin-right: 20px;
+}
+
+.my-name{
+    margin-bottom: 70px;
+}
