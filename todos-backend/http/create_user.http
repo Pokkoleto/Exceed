@@ -1,0 +1,8 @@
+POST http://localhost:4000/regitser HTTP/1.1
+content-type: application/json
+
+{
+    "name": "exceed",
+    "email": "xyz@ku.th",
+    "password": "qwerty"
+}
